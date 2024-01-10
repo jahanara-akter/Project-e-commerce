@@ -1,0 +1,1532 @@
+/*================================== common css start ============================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/*================================== common css end ============================*/
+/* <!--======================= header  start here ========================== --> */
+header .header_top .header_title{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+header .header_top .header_ul{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+header .header_top .header_ul li a {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all linear 0.4s;
+}
+header .header_top .header_ul li a:hover {
+    color: #F90;
+    transition: all linear 0.4s;
+}
+header .header_top .header_ul li .active {
+    color: #F90;
+}
+header .header_top .select{
+    text-align: center;
+    position: relative;
+}
+header .header_top .select::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 200%;
+    width: 1.5px;
+    background: #F90;
+}
+header .header_top .select::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 200%;
+    width: 1.5px;
+    background: #F90;
+}
+header .header_top .select select{
+    border:0;
+    background: transparent;
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+header .header_top .header_icon{
+    display: flex;
+    column-gap: 26px;
+    justify-content: flex-end;
+}
+header .header_top .header_icon i{
+   font-size: 20px;
+   color: #FF9900;
+}
+header .header_top .container .row{
+   align-items: center;
+}
+header .header_top .container{
+    border-bottom: 2px solid #F90;
+    padding: 18px 0;
+}
+/* <!--======================= nav start here ====================== --> */
+header nav .logo{
+    width: 173px;
+}
+header nav{
+    padding: 19px 0;
+}
+header nav{
+    align-items: center;
+}
+header nav form input{
+    border-radius: 50px;
+    border: 2px solid #F90;
+    width: 315px;
+    height: 45px;
+    color: #DFDFDF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    padding: 13px 52px 11px 18px;
+    outline: 0;
+}
+header nav form{
+    position: relative;
+}
+header nav form i{
+    position: absolute;
+    color: #F90;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 21px;
+    cursor: pointer;
+}
+header nav .call{
+       display: flex;
+       column-gap: 5px;
+       align-items: center;
+}
+header nav .call i{
+    font-size: 36px;
+    color: #F90;
+}
+header nav .call .text{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+header nav .call .text:hover{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    transition: all linear 0.4s;
+}
+header nav .call .text .active{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+header nav .nav_icon{
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+}
+header nav .nav_icon a{
+   position: relative;
+}
+header nav .nav_icon a i{
+    font-size: 36px;
+    color: #F90;
+}
+header nav .nav_icon a:nth-child(2)::after{
+    content:"15";
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-80%,-80%);
+    height: 27px;
+    width: 27px;
+    background: #F90;
+    border-radius: 50%;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    border: 2px solid white;
+}
+header nav .nav_icon a:nth-child(3)::after{
+    content:"15";
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-80%,-80%);
+    height: 27px;
+    width: 27px;
+    background: #F90;
+    border-radius: 50%;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    border: 2px solid white;
+}
+/* <!--============================= nav end here ============================= --> */
+/* <!--======================= header_bottom here ============================= --> */
+
+#header_bottom {
+    background: #F90;
+    padding: 8px 0;
+    margin-bottom: 20px;
+}
+#header_bottom .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+#header_bottom .navbar-nav .nav-item .nav-link{
+    color: #0a0000;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+#header_bottom .navbar-nav .active{
+    color: #FFF !important;
+}
+#header_bottom .navbar-nav .nav-item .nav-link:hover{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all linear 0.4s;
+}
+#header_bottom .navbar-nav .dropdown-toggle::after{
+    display: none;
+}
+/* <!--======================= header_bottom end here ====================== --> */
+/* <!--========================== header end here ========================== --> */
+/* <!--========================== banner part start here ========================== --> */
+#banner_part .catagories{
+    border: 2px solid #F90;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#banner_part .catagories h4{
+   background: #F90;
+   color: #FFF;
+   font-family: Nunito;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   padding:15px 0;
+   text-align:center;
+}
+#banner_part .catagories ul{
+    padding: 0px 26px 24px 26px;
+}
+#banner_part .catagories ul li a{
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 0;
+    border-bottom: 1px solid #F90;
+    display: block;
+}
+#banner_part .catagories ul li a i{
+     font-size: 20px;
+     color: #F90;
+     margin-right: 11px;
+}
+#banner_part .catagories ul li .sale{
+    text-align: center;
+    padding: 24px 36px 30px 37px;
+}
+#banner_part .catagories ul li:last-child a{
+    border: 0;
+    background: #F90;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 23px;
+    padding: 24px 0;
+}
+#banner_part .banner_slider .slide img{
+    width: 100%;
+}
+#banner_part .banner_slider{
+    position: relative;
+}
+#banner_part .banner_slider ul{
+    position: absolute;
+    left: 70px;
+    bottom:57px;
+    display: flex;
+    column-gap: 30px;
+}
+#banner_part .banner_slider ul li button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    position: absolute;
+}
+#banner_part .banner_slider ul li button::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f6f3f3;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    opacity: 0;
+}
+#banner_part .banner_slider ul .slick-active button::after{
+    opacity: 1;
+    background: #000;
+}
+#banner_part .banner_slider ul .slick-active button{
+    border: 3px solid #000;
+}  
+#banner_part .main{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 18px;
+} 
+#banner_part .shipping{
+     border: 1px solid #F90;
+     display: flex;
+     align-items: center;
+     padding: 36px 26px 32px 28px;
+     column-gap: 4px;
+     border-radius: 10px;
+}
+#banner_part .shipping i{
+    font-size: 26px;
+}
+#banner_part .shipping .text h4{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1px;
+}    
+#banner_part .shipping .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}      
+/* <!--========================== banner part end here ========================== --> */
+/* <!--========================== flash sale start here ========================== --> */
+#flash_sale{
+    margin-top: 52px;
+    margin-bottom: 20px;
+}
+#flash_sale .col-lg-2{
+    padding-right: 0;
+}
+#flash_sale .shop{
+    padding-right: 12px;
+    padding-left: 0;
+}
+#flash_sale .col-lg-8{
+    padding: 0;
+}
+#flash_sale .main{
+    display: flex;
+}
+#flash_sale h2{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 5px 0;
+    text-align: center;
+    background: #F90;
+    border: 1px solid #F90;
+    border-right: 0;
+}
+#flash_sale .main{
+    border: 1px solid #F90;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#flash_sale .main h5{
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20px;
+    margin:0 21px;
+}
+#flash_sale .main p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 9px;
+}
+#flash_sale .main p span{
+    background: #F90;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 6px;
+}
+#flash_sale .shop h3{
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #FFF;
+    border: 1px solid #F90;
+    border-left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* <!--========================== flash sale end   here ========================== --> */
+/* <!--================================== product_part start here ==================================== --> */
+#product_slider_part .container{
+    max-width: 1340px;
+}
+#product_slider_part .slick-list{
+    padding: 10px 0;
+}
+#product_slider_part .product_slide{
+    position: relative;
+}
+#product_slider_part .product_slide .left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #FFF;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #F90;
+}
+#product_slider_part .product_slide .right{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+    color: #FFF;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #F90;
+}
+#product_slider_part .product_slide .slide{
+    width: 203px;
+    margin: 0 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#product_slider_part .product_slide .slide .image{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #F90;
+}
+#product_slider_part .product_slide .slide .image .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 15px;
+    padding-right: 20px;
+}
+#product_slider_part .product_slide .slide .image .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #F90;
+    border: 2px solid #F90;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+}
+#product_slider_part .product_slide .slide .image .overlay i:hover{
+    background: #FFF;
+    color: #F90;
+}
+#product_slider_part .product_slide .slide .image:hover .overlay{
+    opacity: 1;
+    transition: all linear 0.4s;
+}
+#product_slider_part .product_slide .slide .image img{
+    width: 100%;
+}
+#product_slider_part .product_slide .slide .text .del{
+   position: relative;
+}
+#product_slider_part .product_slide .slide .text a p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#product_slider_part .product_slide .slide .text span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#product_slider_part .product_slide .slide .text{
+    position: relative;
+    padding: 10px 8px;
+}
+#product_slider_part .product_slide .slide .text .solid_heart,
+#product_slider_part .product_slide .slide .text .regular_heart{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F90;
+}
+#product_slider_part .product_slide .slide .text .solid_heart{
+    display: none;
+}
+#product_slider_part .product_slide .slide .text .icon i{
+    color: #F90;
+}
+#product_slider_part .product_slide .slide .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+}
+#product_slider_part .product_slide .slide .text .icon span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#product_slider_part .product_slide .slide .text .del::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #0d0d0d;
+    transform: rotate(15deg);
+}
+/* <!--================================== product_part end here ==================================== --> */
+/* <!--================================== Featured Products start here ==================================== --> */
+#Featured_Products_part .container{
+    margin-bottom: 19px;
+}
+#Featured_Products_part h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-top: 48px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#Featured_Products_part .card_1{
+    width: 203px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+}
+#Featured_Products_part .card_1 .text {
+    padding: 11px 0 12px 8px;
+    position: relative;
+}
+#Featured_Products_part .card_1 .image{
+    width: 100%;
+    border-bottom: 1px solid #F90;
+    position: relative;
+}
+#Featured_Products_part .card_1 .image .new{
+    width: 49px;
+    height: 18px;
+    border-radius: 10px;
+    background: #0D9D01;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: 0;
+    position: absolute;
+    margin: 14px 0 0 8px;
+}
+#Featured_Products_part .card_1 .image img{
+    width: 100%;
+}
+#Featured_Products_part .card_1 .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#Featured_Products_part .card_1 .text .icon span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#Featured_Products_part .card_1 .text .icon i{
+    color: #F90;
+}
+#Featured_Products_part .card_1 .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+}
+#Featured_Products_part .card_1 .text span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#Featured_Products_part .card_1 .image .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 15px;
+    padding-right: 20px;
+}
+#Featured_Products_part .card_1 .image .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #F90;
+    border: 2px solid #F90;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+}
+#Featured_Products_part .card_1 .image .overlay i:hover{
+    background: #FFF;
+    color: #F90;
+}
+#Featured_Products_part .card_1 .image:hover .overlay{
+    opacity: 1;
+    transition: all linear 0.4s;
+}
+#Featured_Products_part .card_1 .text{
+    position: relative;
+    padding: 10px 8px;
+}
+#Featured_Products_part .card_1 .text .solid_heart,
+#Featured_Products_part .card_1 .text .regular_heart{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F90;
+}
+#Featured_Products_part .card_1 .text .solid_heart{
+    display: none;
+}
+#Featured_Products_part button{
+    background: transparent;
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    margin: 20px auto 49px;
+    border: 1px solid #F90;
+}
+#Featured_Products_part .card_1 .text .del{
+    position: relative;
+}
+#Featured_Products_part .card_1 .text .del::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 50%;
+     width: 100%;
+     height: 1px;
+     background: #0d0d0d;
+     transform: rotate(15deg);
+ }
+/* <!--================================== Featured Products end here ==================================== --> */
+/* <!--================================== Catagories part start here ==================================== --> */
+#Catagories_part h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-top: 48px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#Catagories_part .card_2 {
+    width: 202px;
+    height: 202px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+}
+#Catagories_part .card_2:hover{
+    border: 1px solid #000;
+    transition: all linear 0.4s;
+}
+#Catagories_part .active{
+    border: 1px solid #000;
+}
+#Catagories_part .card_2 img{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 120px;
+    height: 120px;
+}
+#Catagories_part .card_2 p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+#Catagories_part .container{
+    margin-bottom: 20px;
+}
+#Catagories_part button{
+    background: transparent;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    margin: 20px auto 49px;
+    border: 1px solid #F90;
+}
+#Catagories_part button a{
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #F90;
+}
+/* <!--================================== Catagories part end here ==================================== --> */
+/* <!--================================== Newsletter part start here ==================================== --> */
+#newsletter{
+    padding: 50px 0;
+}
+#newsletter .container{
+    background-color: #D9D9D9;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#newsletter .main{
+    padding-right: 52px;
+}
+#newsletter .main .angle{
+    padding: 40px 100px 40px 0;
+    background-color: #F90;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+#newsletter .main .angle h3{
+    color: #000;
+    font-family: Nunito;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+#newsletter .main .angle p{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+#newsletter .main .angle .group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsletter .main .angle .input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 482px;
+}
+#newsletter .main .angle .input-btn input{
+    border: 0;
+    outline: 0;
+    padding: 11px 0 11px 20px;
+}
+#newsletter .main .angle .input-btn button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F90;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 8px;
+    margin-right: 2px;
+}
+#newsletter .image{
+    height: 100%;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+}
+#newsletter .image img{
+    height: 100%;
+}
+/* <!--================================== Newsletter part end here ==================================== --> */
+/* <!--================================== top rated product start here ==================================== --> */
+#top_rated_product .container{
+    margin-bottom: 20px;
+}
+#top_rated_product h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-top: 48px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#top_rated_product .text{
+    background: #F4F4F4;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
+    width: 427px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+#top_rated_product .text h4{
+    color: #000;
+    font-family: Kaushan Script;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#top_rated_product .text h2{
+    color: #000;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#top_rated_product .text .icon i{
+   color: #F90;
+}
+#top_rated_product .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+}
+/* <!--==================================  top rated product end here ==================================== --> */
+/* <!--==================================  best selling product start here ==================================== --> */
+#best_selling_product h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-top: 48px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#best_selling_product .container{
+    max-width: 1340px;
+}
+#best_selling_product .slick-list{
+    padding: 10px 0;
+}
+#best_selling_product .product_slide{
+    position: relative;
+}
+#best_selling_product .product_slide .left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #FFF;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #F90;
+}
+#best_selling_product .product_slide .right{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+    color: #FFF;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #F90;
+}
+#best_selling_product .product_slide .slide{
+    width: 203px;
+    margin: 0 10px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#best_selling_product.product_slide .slide .image{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #F90;
+}
+#best_selling_product .product_slide .slide .image .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 15px;
+    padding-right: 20px;
+}
+#best_selling_product .product_slide .slide .image .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #F90;
+    border: 2px solid #F90;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+}
+#best_selling_product.product_slide .slide .image .overlay i:hover{
+    background: #FFF;
+    color: #F90;
+}
+#best_selling_product.product_slide .slide .image:hover .overlay{
+    opacity: 1;
+    transition: all linear 0.4s;
+}
+#best_selling_product .product_slide .slide .image img{
+    width: 100%;
+}
+#best_selling_product .product_slide .slide .text .del{
+   position: relative;
+}
+#best_selling_product .product_slide .slide .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#best_selling_product .product_slide .slide .text span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#best_selling_product .product_slide .slide .text{
+    position: relative;
+    padding: 10px 8px;
+}
+#best_selling_product .product_slide .slide .text .solid_heart,
+#best_selling_product .product_slide .slide .text .regular_heart{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F90;
+}
+#best_selling_product .product_slide .slide .text .solid_heart{
+    display: none;
+}
+#best_selling_product .product_slide .slide .text .icon i{
+    color: #F90;
+}
+#best_selling_product .product_slide .slide .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+}
+#best_selling_product .product_slide .slide .text .icon span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#best_selling_product .product_slide .slide .text .del::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #0d0d0d;
+    transform: rotate(15deg);
+}
+/* <!--==================================  best selling product end here ==================================== --> */
+/* <!--==================================  up coming product start here ==================================== --> */
+#up_coming_product{
+    padding: 50px 0;
+}
+#up_coming_product .container{
+    background: #F90;
+    padding: 0;
+}
+#up_coming_product .angle{
+    background: #000;
+    clip-path: polygon(0 0, 305px 0, 100% 100%, 0% 100%);
+}
+#up_coming_product .angle img{
+    width: 340px;
+}
+#up_coming_product .text h6{
+    color: #000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#up_coming_product .text h2{
+    color: #000;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#up_coming_product .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 650px;
+    margin-bottom: 14px;
+}
+#up_coming_product .text span{
+    background:#000;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* <!--==================================  up coming product end here ==================================== --> */
+/* <!--==================================   Latest products start here ==================================== --> */
+#Latest_products .container{
+    margin-bottom: 19px;
+}
+#Latest_products h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#Latest_products .card_1{
+    width: 203px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+}
+#Latest_products .card_1 .text {
+    padding: 11px 0 12px 8px;
+    position: relative;
+}
+#Latest_products .card_1 .image{
+    width: 100%;
+    border-bottom: 1px solid #F90;
+    position: relative;
+}
+#Latest_products .card_1 .image .new{
+    width: 49px;
+    height: 18px;
+    border-radius: 10px;
+    background: #0D9D01;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: 0;
+    position: absolute;
+    margin: 14px 0 0 8px;
+}
+#Latest_products .card_1 .image img{
+    width: 100%;
+}
+#Latest_products .card_1 .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#Latest_products .card_1 .text .icon span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#Latest_products .card_1 .text .icon i{
+    color: #F90;
+}
+#Latest_products .card_1 .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+}
+#Latest_products .card_1 .text span{
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#Latest_products .card_1 .image .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 15px;
+    padding-right: 20px;
+}
+#Latest_products .card_1 .image .overlay i{
+    width: 50px;
+    height: 50px;
+    background: #F90;
+    border: 2px solid #F90;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+}
+#Latest_products .card_1 .image .overlay i:hover{
+    background: #FFF;
+    color: #F90;
+}
+#Latest_products .card_1 .image:hover .overlay{
+    opacity: 1;
+    transition: all linear 0.4s;
+}
+#Latest_products .card_1 .text{
+    position: relative;
+    padding: 10px 8px;
+}
+#Latest_products .card_1 .text .solid_heart,
+#Latest_products .card_1 .text .regular_heart{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F90;
+}
+#Latest_products .card_1 .text .solid_heart{
+    display: none;
+}
+#Latest_products button{
+    background: transparent;
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    margin: 20px auto 49px;
+    border: 1px solid #F90;
+}
+#Latest_products .card_1 .text .del{
+    position: relative;
+}
+#Latest_products .card_1 .text .del::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 50%;
+     width: 100%;
+     height: 1px;
+     background: #0d0d0d;
+     transform: rotate(15deg);
+ }
+#Latest_products button{
+    background: transparent;
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    margin: 20px auto 49px;
+    border: 1px solid #F90;
+}
+/* <!--==================================   Latest products end here ==================================== --> */
+/* <!--=====================================   Brands start here ========================================= --> */
+#Brands .container{
+    margin-bottom: 19px;
+}
+#Brands h3{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #F90;
+    width: 315px;
+    height: 50px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+#Brands .image{
+    border-radius: 10px;
+}
+#Brands button{
+    background: transparent;
+    color: #F90;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    margin: 20px auto 49px;
+    border: 1px solid #F90;
+}
+/* <!--=====================================   Brands end here ========================================= --> */
+/* <!--=====================================   footer start here ========================================= --> */
+#footer {
+    background: #000;
+    padding: 100px 0;
+}
+#footer .one{
+    border-bottom: 1px solid #898989;
+    padding-bottom: 41px;
+}
+#footer .main .text h4 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 18px;
+}
+#footer .main .text h5 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 18px;
+}
+#footer .main .text a {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 0px;
+}
+#footer .main .text p {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 0px;
+}
+#footer .main .icon{
+    padding: 29px 0 41px;
+}
+#footer .main .icon i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #F90;
+    border-radius: 50%;
+    color: #F90;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+#footer .CUSTOMER_service{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+#footer .CUSTOMER_service h4{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+#footer .CUSTOMER_service a{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#footer .POPULAR_TAGS h4 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+#footer .POPULAR_TAGS .button button{
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    padding: 10px ;
+    margin: 18px 18px 0 0;
+}
+#footer .POPULAR_TAGS .button button a{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+#footer .newsletter h4{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+#footer .group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer .input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    border-radius: 50px;
+    overflow: hidden;
+    width:311px;
+    margin-bottom: 32px;
+}
+#footer .input-btn input{
+    border: 0;
+    outline: 0;
+    padding: 11px 0 11px 20px;
+}
+#footer .input-btn button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F90;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 8px;
+    margin-right: 2px;
+}
+#footer .image{
+    padding-top: 32px;
+    display: flex;
+    column-gap: 30px;
+}
+#footer .image .logo{
+    width: 100%;
+}
+
+#footer .copyright{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 57px 0 43px 700px ;
+}
+/* <!--=====================================   footer end here ========================================= --> */

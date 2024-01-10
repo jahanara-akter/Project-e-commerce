@@ -1,0 +1,54 @@
+/* <!--============================= drone_slider start here =================================== --> */
+#drone_slider .main_2 .text_1 .text_2 {
+    display: flex;
+    column-gap: 116px;
+}
+#drone_slider .main_2 .text_1 .text_2 .brand::after{
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 10px;
+    transform: translateY(50%);
+    width: 1px;
+    height: 23px;
+    background: #000;
+    margin: 0 6px;
+}
+#drone_slider .main_2 .text_3 h3::after {
+    display: none;
+}
+#drone_slider .main_2 .text_3 h3::before {
+    display: none;
+}
+#drone_slider .main_2 .text_3::after {
+    display: none;
+}
+#drone_slider .main_2 .text_3::before {
+    display: none;
+}
+#drone_slider .main_2 .middle_part .text_3 .color {
+    display: flex;
+}
+#drone_slider .main_2 .middle_part .text_3 .color .img {
+    display: flex;
+    column-gap: 7px;
+}
+.preview_btn_slider .right {
+    right: 0;
+}
+/* <!--============================= drone_slider end here =================================== --> */
+/* <!--========================== product_details_part_of_dji start here ===========================--> */
+#product_details_part_of_dji table{
+    border: 1px solid #F90;
+    width: 984px;
+    height: 246px;
+    margin-bottom: 50px;
+}
+tr{
+    border: 1px solid #F90;
+    text-align: center;
+}
+td{
+    border: 1px solid #F90;
+    text-align: center;
+}

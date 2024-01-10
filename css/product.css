@@ -1,0 +1,1094 @@
+/*================================== common css start ============================*/
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+     margin: 0;
+ }
+ ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ img{
+     display: block;
+ }
+ a{
+     text-decoration: none;
+     display: inline-block;
+ }
+ /*=========================================== common css end ==========================================*/
+ /* <!--============================= header_bottom_black start here =============================== --> */
+ #header_bottom{
+     margin-bottom: 0px;
+ }
+ #header_bottom_black {
+     background: rgb(7, 7, 7);
+     padding: 8px 0;
+     margin-bottom: 20px;
+ }
+ #header_bottom_black .navbar-nav .nav-item .nav-link i{
+     margin-left: 5px;
+ }
+ #header_bottom_black .navbar-nav{
+     display: flex;
+     flex-direction: row;
+     column-gap: 40px;
+ }
+ #header_bottom_black .navbar-nav .nav-item .nav-link{
+     color: #f7f2f2;
+     font-family: Nunito Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+ }
+ #header_bottom_black .navbar-nav .dropdown-toggle::after{
+     display: none;
+ }
+ /* <!--============================= header_bottom_black end here =============================== --> */
+ /* <!--===================================== drone_slider start here ======================================== --> */
+ #drone_slider{
+     padding: 26px 0 50px;
+ }
+ .preview_slider{
+     height: 427px;
+     margin: 0 10px;
+     border: 1px solid #f90;
+ }
+ .preview_slider img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .priview_btn_slider{
+     position: relative;
+ }
+ .preview_btn_slider .left{
+     position: absolute;
+     left: 10px;
+     top: 50%;
+     transform: translateY(-20%) translateX(-50%);
+     color: #FFF;
+     z-index: 999;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     border-radius: 50%;
+     background: #F90;
+ }
+ .preview_btn_slider .right{
+     position: absolute;
+     right: 10px;
+     top: 50%;
+     transform: translateY(-20%) translateX(50%);
+     color: #FFF;
+     z-index: 999;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     border-radius: 50%;
+     background: #F90;
+ }
+ .priview_btn_slide{
+     width: 90px;
+     height: 90px;
+     border: 1px solid #f90;
+     margin: 20px 10px 0 10px;
+ }
+ /* .preview_slider_part ul{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+ }
+ .preview_slider_part ul li button{
+     font-size: 0;
+     width: 90px;
+     height: 90px;
+     border: 1px solid #f90;
+ }
+ .preview_slider_part ul li:first-child button{
+     background: url(../images/li_child_2.png);
+ }
+ .preview_slider_part ul li:nth-child(2) button{
+     background: url(../images/li_child_1.png);
+ }
+ .preview_slider_part ul li:nth-child(3) button{
+     background: url(../images/li_child_3.png);
+ }
+ .preview_slider_part ul li:last-child button{
+     background: url(../images/li_child_4.png);
+ } */
+ 
+ #drone_slider .main_2 .text_1 h4{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_2 .text_1 i{
+     font-size: 20px;
+     color: #F90;
+     margin-top: 8px;
+ }
+ #drone_slider .main_2 .text_1 .star{
+    color:rgba(0, 0, 0, 0.40);
+ }
+ #drone_slider .main_2 .text_1 p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 69px;
+ }
+ #drone_slider .main_2 .text_1 .text_2 .brand{
+     display: flex;
+     position: relative;
+     column-gap: 14px;
+ }
+ #drone_slider .main_2 .text_1 .text_2 .brand::after{
+     content: "";
+     position: absolute;
+     left: 44%;
+     top: 10px;
+     transform: translateY(50%);
+     width: 1px;
+     height: 23px;
+     background: #000;
+     margin: 0 6px;
+ }
+ #drone_slider .main_2 .text_1 .text_2{
+     display: flex;
+     column-gap: 130px;
+ }
+ #drone_slider .main_2 .text_1 .text_2 .Wishlist{
+     display: flex;
+     align-items: center;
+ }
+ #drone_slider .main_2 .text_1 .text_2 .Wishlist i{
+     width: 25px;
+     height: 25px;
+     color: #F90;
+     font-size: 25px;
+     margin-right: 6px;
+ }
+ #drone_slider .main_2 .text_1 .text_2 .Wishlist p{
+     color: #F90;
+     font-family: Nunito Sans;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 800;
+ }
+ #drone_slider .main_2 .text_1{
+     border-bottom: 1px solid #D6D0D0;
+ }
+ #drone_slider .main_2 .text_3 h2{
+     color: #000;
+     font-family: Nunito;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     margin: 20px 0;
+ }
+ #drone_slider .main_2 .text_3 p{
+     color: #000;
+     font-family: Nunito;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 20px;
+ }
+ #drone_slider .main_2 .text_3 h3{
+     color: #000;
+     font-family: Nunito;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     position: relative;
+ }
+ #drone_slider .main_2 .text_3 h3 span{
+    margin: 0 3px 0 5px;
+ }
+ #drone_slider .main_2 .text_3{
+     position: relative;
+ }
+ #drone_slider .main_2 .text_3::after{
+     content: "";
+     position: absolute;
+     left:23%;
+     top: -18px;
+     transform: translateY(644%);
+     width: 30px;
+     height: 30px;
+     background: #FFF;
+     margin: 0 6px;
+     border: 1px solid #D6D0D0;
+ }
+ #drone_slider .main_2 .text_3::before{
+     content: "";
+     position: absolute;
+     left:30%;
+     top: -18px;
+     transform: translateY(644%);
+     width: 30px;
+     height: 30px;
+     background: #AAAAAA;
+     margin: 0 6px;
+ }
+ #drone_slider .main_2 .text_3 h3::after{
+     content: "";
+     position: absolute;
+     left: 9%;
+     top: -18px;
+     transform: translateY(50%);
+     width: 30px;
+     height: 30px;
+     background: #000;
+     margin: 0 6px;
+ }
+ 
+ #drone_slider .main_2 .text_3 h3::before{
+     content: "";
+     position: absolute;
+     left: 16%;
+     top: -18px;
+     transform: translateY(50%);
+     width: 30px;
+     height: 30px;
+     background: #AAAAAA;
+     margin: 0 6px;
+ }
+ #drone_slider .main_2 .btn{
+     margin-top: 34px;
+     margin-left: -87px;
+ }
+ #drone_slider .middle_part .btn .button {
+     padding: 10px 20px;
+     background-color: #f8f8f8;
+     border: 1px solid #F90;
+     color: rgb(10, 10, 10);
+     font-size: 16px;
+     border-radius: 10px;
+     position: relative;
+ }
+   
+ #drone_slider .middle_part .btn .button::before {
+     content: "+";
+     top: 0;
+     right: 75%;
+     color: rgb(255, 254, 253);
+     position: absolute;
+     background: #F90;
+     width: 50px;
+     height: 50px;
+     border-radius: 10px 0 0 10px;
+     line-height: 50px;
+ }
+   
+  #drone_slider .middle_part .btn .button::after {
+     content: "-";
+     top: 0;
+     left: 77%;
+     color: rgb(255, 254, 253);
+     position: absolute;
+     background: #F90;
+     width: 50px;
+     height: 50px;
+     border-radius: 0 10px 10px 0;
+     line-height: 50px;
+ }
+   
+ #drone_slider .main_2 .btn button{
+     width: 203px;
+     height: 50px;
+     color: #FFF;
+     font-family: Nunito Sans;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 800;
+     border-radius: 10px;
+     border: 1px solid #F90;
+     background: #F90;
+     margin: 0px 10px 10px 0;
+ }
+ #drone_slider .main_2 .btn button i{
+     width: 25px;
+     height: 20px;
+     margin-right: 5px;
+ }
+ #drone_slider .main_2 .btn .one{
+     width: 203px;
+     height: 50px;
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 19px;
+     font-style: normal;
+     font-weight: 800;
+     border: 1px solid #F90;
+     background: #FFF;
+     text-align: center;
+ }
+ #drone_slider .main_2 .btn .one .plus{
+       width: 50px;
+       height: 50px;
+       color: #FFF;
+       background: #F90;
+       text-align: center;
+       line-height:50px;
+       margin-right: 39.5px;
+       border-radius: 10px 0px 0px 10px;
+       font-size: 10px;
+ }
+ #drone_slider .main_2 .btn .one .minus{
+     width: 50px;
+     height: 50px;
+     color: #FFF;
+     background: #F90;
+     text-align: center;
+     line-height:50px;
+     margin-left: 33px;
+     border-radius: 0 10px 10px 0;
+     font-size: 10px;
+ }
+ #drone_slider .col-lg-5 .border{
+     border-bottom: 1px solid #D6D0D0;
+     width: 873px;
+     margin-bottom: 36px;
+ }
+ #drone_slider .last_text p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+ }
+ #drone_slider .last_text p span{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .last_text .image{
+     display: flex;
+ }
+ #drone_slider .last_text .image img{
+     padding: 0 4px;
+     width: 40px;
+     margin-bottom: 22px;
+ }
+ #drone_slider .main_3{
+     width: 315px;
+     height: 385px;
+     border: 1px solid #F90;
+ }
+ #drone_slider .main_3 .delivary .title{
+     display: flex;
+     padding: 27px 30px 11px;
+     column-gap: 177px;
+ }
+ #drone_slider .main_3 .delivary .title h6{
+     color: #898989;
+     font-family: Nunito Sans;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_3 .delivary .title i{
+     width: 10px;
+     height: 10px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .delivary .text .change{
+     display: flex;
+     padding: 8px 30px 0 30px;
+ }
+ #drone_slider .main_3 .delivary .text .change i{
+     width: 18.75px;
+     height: 25px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .delivary .text .change p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+     margin-left: 10px;
+ }
+ #drone_slider .main_3 .delivary .text .change button{
+     color: #FFF;
+     font-family: Nunito Sans;
+     font-size: 9px;
+     font-style: normal;
+     font-weight: 600;
+     width: 49px;
+     height: 20px;
+     border-radius: 10px;
+     background: #F90;
+     border: 0;
+     outline: 0;
+     margin-left: 33px;
+ }
+ #drone_slider .main_3 .delivary .text .home_delivary{
+     display: flex;
+     padding: 18px 30px 0;
+     column-gap: 5px;
+ }
+ #drone_slider .main_3 .delivary .text .home_delivary i{
+     width: 25.002px;
+     height: 17.5px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .delivary .text .home_delivary h6{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_3 .delivary h5{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 8px;
+     font-style: normal;
+     font-weight: 400;
+     padding: 0 177px 0 61px;
+ }
+ #drone_slider .main_3 .delivary .cash_on-delivary{
+     display: flex;
+     padding: 24px 30px;
+     column-gap: 5px;
+     border-bottom: 1px solid #F90;
+ }
+ #drone_slider .main_3 .delivary .cash_on-delivary i{
+     width: 25px;
+     height: 15px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .delivary .cash_on-delivary p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_3 .Service .title{
+     display: flex;
+     padding: 27px 30px 11px;
+     column-gap: 177px;
+ }
+ #drone_slider .main_3 .Service .title h6{
+     color: #898989;
+     font-family: Nunito Sans;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_3 .Service .title i{
+     width: 10px;
+     height: 10px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .Service  .home_delivary{
+     display: flex;
+     padding: 18px 30px 0;
+     column-gap: 5px;
+ }
+ #drone_slider .main_3 .Service .home_delivary i{
+     width: 25.002px;
+     height: 17.5px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .Service .home_delivary h6{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #drone_slider .main_3 .Service h5{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 8px;
+     font-style: normal;
+     font-weight: 400;
+     padding: 0 177px 0 61px;
+ }
+ #drone_slider .main_3 .Service .cash_on-delivary{
+     display: flex;
+     padding: 24px 30px;
+     column-gap: 5px;
+ }
+ #drone_slider .main_3 .Service .cash_on-delivary i{
+     width: 25px;
+     height: 15px;
+     color: #F90;
+ }
+ #drone_slider .main_3 .Service .cash_on-delivary p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ /* <!--===================================== drone_slider end here ======================================== --> */
+ /* <!--=================================== product_details_part_of_dji start here =================================--> */
+ #product_details_part_of_dji .container{
+     max-width: 1340px;
+ }
+ #product_details_part_of_dji .image_part button{
+     color: #FFF;
+     font-family: Nunito;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     width: 308px;
+     height: 50px;
+     background: #F90;
+     border: 0;
+     outline: 0;
+ }
+ #product_details_part_of_dji .image_part img{
+     width: 325px;
+     height: 270px;
+     border-radius: 10px;
+     margin: 10px 0;
+ } 
+ #product_details_part_of_dji .main .sub_main_1{
+     width: 984px;
+     height: 246px;
+     border: 1px solid #F90;
+ }
+ #product_details_part_of_dji .main .sub_main_1 h1{
+     color: #F90;
+     font-family: Nunito;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     border-bottom: 1px solid #F90;
+     padding: 11px 0 15px 18px;
+ }
+ #product_details_part_of_dji .main .sub_main_1 p{
+     color: #000;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     margin: 11px 0 0px 18px;
+ }
+ #product_details_part_of_dji .main .sub_main_2{
+     width: 985px;
+     border: 1px solid #F90;
+     margin-top: 50px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_1 h1{
+     color: #F90;
+     font-family: Nunito;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     border-bottom: 1px solid #F90;
+     padding: 11px 0 15px 18px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_1 .ratings{
+     padding: 10px 0 10px 10px;
+     border-bottom: 1px solid #F90;
+ }
+ #product_details_part_of_dji .main .section_1 .part_1 h2{
+     color: #000;
+     font-family: Nunito;
+     font-size: 76px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .section_1 .part_1 h2 span{
+     color: #000;
+     font-family: Nunito;
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .section_1 .part_1 i{
+     font-size: 30px;
+     color: #F90;
+     margin-bottom: 10px;
+ }
+ #product_details_part_of_dji .main .section_1 .part_1 .star{
+    color: rgba(0, 0, 0, 0.40);
+ }
+ #product_details_part_of_dji .main .section_1 .part_1 p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+ }
+ #product_details_part_of_dji .main  .section_1 .ratings{
+     display: flex;
+     column-gap: 40px;
+ }
+ #product_details_part_of_dji .main  .section_1 .ratings .part_2{
+     display: flex;
+     column-gap: 20px;
+ }
+ #product_details_part_of_dji .main  .section_1 .ratings .part_2 .img img{
+     padding-top: 29px;
+ }
+ #product_details_part_of_dji .main .section_1 .ratings .part_2 .number p{
+     color: #000;
+     font-family: Nunito Sans;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+     padding-top: 23px;
+ }
+ #product_details_part_of_dji .main .section_1 .ratings .part_2 .icon i{
+     font-size: 17px;
+     color: #F90;
+ }
+ #product_details_part_of_dji .main .section_1 .ratings .part_2 .icon .star{
+    color: rgba(0, 0, 0, 0.40);
+ }
+ #product_details_part_of_dji .main .section_1 .ratings .part_2 .icon{
+     padding-top: 19px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1 {
+     border-bottom: 1px solid #F90;
+ }
+ #product_details_part_of_dji .main .sub_main_2  .section_2 .part_1 h3{
+     color: #F90;
+     font-family: Nunito;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     padding: 11px 0 15px 18px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1{
+     display: flex;
+     justify-content: space-between;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1 .filter{
+     display: flex;
+     text-align: center;
+     padding: 16px 40px 0;
+     column-gap: 4px;
+     position: relative;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1 .filter::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     top: -30px;
+     transform: translateY(50%);
+     width: 1px;
+     height: 56px;
+     background: #f90;
+     margin: 0 6px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1 .filter i{
+     font-size: 15px;
+     color: #898989;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_1 .filter p{
+     color: #898989;
+     font-family: Nunito;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ 
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2{
+     padding: 21px 0 18px 20px;
+     border-bottom: 1px solid #F90;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 i{
+       font-size: 17px;
+       color: #F90;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .star{
+    color: rgba(0, 0, 0, 0.40);
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas{
+     display: flex;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas .verified{
+     margin-right: 650px;
+     padding: 4px 0;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas .verified h4{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas .verified i{
+     font-size: 10px;
+     color: #0D9D01;
+     margin-left: 10px;
+     margin-right: 5px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas .verified h5{
+     color: #0D9D01;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas .verified{
+     display: flex;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .Hamza_Altamas h4{
+     color: #000;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 p{
+     color: #000;
+     font-family: Nunito;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     width: 741px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .image{
+     display: flex;
+     column-gap: 11px;
+     padding: 11px 0;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .icon_part{
+    display: flex;
+    column-gap: 5px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_2 .part_2 .icon_part h2{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-right: 40px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3{
+     padding: 21px 0 18px 20px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 i{
+       font-size: 17px;
+       color: #F90;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .star{
+    color:  rgba(0, 0, 0, 0.40);
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas{
+     display: flex;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas .verified{
+     margin-right: 650px;
+     padding: 4px 0;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas .verified h4{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas .verified i{
+     font-size: 10px;
+     color: #0D9D01;
+     margin-left: 10px;
+     margin-right: 5px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas .verified h5{
+     color: #0D9D01;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas .verified{
+     display: flex;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .Hamza_Altamas h4{
+     color: #000;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 p{
+     color: #000;
+     font-family: Nunito;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     width: 741px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .image{
+     display: flex;
+     column-gap: 11px;
+     padding: 11px 0;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .icon_part{
+    display: flex;
+    column-gap: 5px;
+ }
+ #product_details_part_of_dji .main .sub_main_2 .section_3 .part_3 .icon_part h2{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-right: 40px;
+ }
+ /* <!--=========================================== question_part start here =====================================--> */
+ #product_details_part_of_dji .question_part .btn button{
+     width: 203px;
+     height: 48px;
+     color: #F90;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     border: 1px solid #F90;
+     background: #FFF;
+     margin: 20px 374px 0 395px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text{
+     width: 985px;
+     border: 1px solid #F90;
+     margin-top: 51px;
+     padding: 11px 0  11px 11px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text h1{
+     color: #F90;
+     font-family: Nunito;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     border-bottom: 1px solid #F90;
+     padding: 11px 0  11px 11px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text h1 span{
+     color: #000;
+     font-family: Nunito;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .group{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .input-btn{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: #FFF;
+     border-radius: 50px;
+     overflow: hidden;
+     width: 945px;
+     border: 1px solid #F90;
+     margin:11px 0;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .input-btn input{
+     border: 0;
+     outline: 0;
+     padding: 11px 0 11px 20px;
+     color: #898989;
+     font-family: Nunito;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .input-btn button{
+     border-radius: 0px 50px 50px 0px;
+     background: #F90;
+     border: 0;
+     outline: 0;
+     color: #FFF;
+     color: #FFF;
+     font-family: Nunito;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     width: 175px;
+     height: 50px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text p{
+     color: #000;
+     font-family: Inter;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     padding: 11px 0  11px 11px;
+     position: relative;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text p::after{
+     content: "";
+     position: absolute;
+     left: 23px;
+     top: 100%;
+     transform: translateY(-50%);
+     width: 95%;
+     height: 1px;
+     background: #F90;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans{
+     display: flex;
+     column-gap: 16px;
+     padding-top: 25px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans .ques{
+     display: flex;
+     column-gap: 16px;
+     position: relative;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques::before{
+     content: "";
+     position: absolute;
+     left: 23px;
+     top: 131%;
+     transform: translateY(-50%);
+     width: 130%;
+     height: 1px;
+     background: #F90;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans h4 {
+     color: #000;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans i{
+     width: 30px;
+     height: 30px;
+     color: #FFF;
+     background: #F90;
+     border-radius: 10px;
+     text-align: center;
+     line-height: 30px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans h4 span{
+     color: #898989;
+     font-family: Nunito;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-left: 16px;
+     margin-right: 560px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans h5{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .question_part .main .text .ques-ans_2{
+     display: flex;
+     column-gap: 16px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans_2 .ques_1{
+     display: flex;
+     column-gap: 16px;
+     position: relative;
+     padding-top: 20px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans_2 h4 {
+     color: #000;
+     font-family: Nunito;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans_2 i{
+     width: 30px;
+     height: 30px;
+     color: #FFF;
+     background: #F90;
+     border-radius: 10px;
+     text-align: center;
+     line-height: 30px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans_2 h4 span{
+     color: #898989;
+     font-family: Nunito;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-left: 16px;
+     margin-right: 560px;
+ }
+ #product_details_part_of_dji .question_part .main_2 .text .ques-ans_2 h5{
+     color: #000;
+     font-family: Nunito;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ } 
+ /* <!--=================================== product_details_part_of_dji end here =================================--> */
+ /* <!--=========================================== question_part end here =====================================--> */
+ /* <!--===================================== product_part start here ====================================== --> */
+ #product_slider_part{
+     margin-bottom: 49px;
+ }
+ #product_slider_part h3{
+     color: #FFF;
+     font-family: Nunito;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     background: #F90;
+     width: 315px;
+     height: 50px;
+     margin-bottom: 21px;
+     text-align: center;
+ }
+ #product_slider_part .text .icon .star{
+    color: rgba(0, 0, 0, 0.4);
+ }
+ /* <!--===================================== product_part start here ====================================== --> */
